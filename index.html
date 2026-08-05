@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Inventory Viewer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>🧰 Minecraft <span>Inventory</span> Viewer</h1>
+  <div class="controls">
+    <label>📋 paste inventory JSON data here to render it:</label>
+    <textarea id="jsonInput"></textarea>
+    <div class="btn-row">
+      <button id="renderBtn">▶ render</button>
+      <button id="sampleBtn">↻ sample</button>
+    </div>
+    <div id="errorBox"></div>
+  </div>
+  <div class="inv-wrap" id="invWrap"></div>
+  <div class="tooltip" id="tooltip"></div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
