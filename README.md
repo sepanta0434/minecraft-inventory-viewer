@@ -8,5 +8,6 @@ A simple web-based Minecraft inventory viewer.
 
 ```bash
 git clone https://github.com/sepanta0434/minecraft-inventory-viewer.git
+```
 ## 💛preview:
 <img src="https://raw.githubusercontent.com/sepanta0434/minecraft-inventory-viewer/refs/heads/main/screenshot.png" />
